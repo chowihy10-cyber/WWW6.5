@@ -41,3 +41,4 @@ contract Masterkey {
     function updateSecretData(string memory _newData) public onlyAdmin whenNotLocked {
         secretData = _newData;
     }
+}
